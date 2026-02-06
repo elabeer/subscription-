@@ -1,0 +1,1598 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>مركز العبير العالمي - التميز الأكاديمي والبحث العلمي</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <i class="fas fa-graduation-cap"></i>
+                <h2>مركز العبير العالمي</h2>
+            </div>
+            <div class="loading-spinner"></div>
+            <p>جاري تحميل تجربة تعليمية استثنائية...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="#home">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div class="logo-text">
+                            <h1>مركز العبير العالمي</h1>
+                            <p>ل د. عبير محمد الرضا عبدالرحمن الأغبش</p>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="nav-menu" id="navMenu">
+                    <ul class="nav-links">
+                        <li><a href="#home" class="nav-link active"><i class="fas fa-home"></i> الرئيسية</a></li>
+                        <li><a href="#about" class="nav-link"><i class="fas fa-info-circle"></i> عن المركز</a></li>
+                        <li class="dropdown">
+                            <a href="#services" class="nav-link has-dropdown">
+                                <i class="fas fa-cogs"></i> خدماتنا <i class="fas fa-chevron-down dropdown-icon"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a href="#academic-services"><i class="fas fa-user-graduate"></i> خدمات أكاديمية</a>
+                                <a href="#language-courses"><i class="fas fa-language"></i> كورسات اللغات</a>
+                                <a href="#school-courses"><i class="fas fa-school"></i> دروس خصوصية</a>
+                                <a href="#programming"><i class="fas fa-code"></i> البرمجة والتقنية</a>
+                                <a href="#consultations"><i class="fas fa-headset"></i> استشارات أكاديمية</a>
+                            </div>
+                        </li>
+                        <li><a href="#features" class="nav-link"><i class="fas fa-star"></i> مميزاتنا</a></li>
+                        <li><a href="#courses" class="nav-link"><i class="fas fa-book-open"></i> الكورسات</a></li>
+                        <li><a href="#testimonials" class="nav-link"><i class="fas fa-comments"></i> آراء العملاء</a></li>
+                        <li><a href="#faq" class="nav-link"><i class="fas fa-question-circle"></i> الأسئلة الشائعة</a></li>
+                        <li><a href="#registration" class="nav-link cta-link"><i class="fas fa-user-plus"></i> سجل الآن</a></li>
+                    </ul>
+                    
+                    <div class="contact-cta">
+                        <div class="contact-info">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <span class="contact-label">اتصل بنا</span>
+                                <span class="contact-number">+249 902 549 432</span>
+                            </div>
+                        </div>
+                        <a href="#registration" class="primary-btn small">
+                            <i class="fas fa-rocket"></i>
+                            <span>ابدأ الآن</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <button class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-container">
+                <div class="hero-content animate__animated animate__fadeInUp">
+                    <div class="hero-badge">
+                        <i class="fas fa-award"></i>
+                        <span>المركز الأول أكاديمياً 2024</span>
+                    </div>
+                    
+                    <h1 class="hero-title">
+                        ابدأ <span class="highlight">رحلة التميز</span> الأكاديمي
+                        <br>مع نخبة من <span class="highlight">الخبراء المتخصصين</span>
+                    </h1>
+                    
+                    <p class="hero-description">
+                        نقدم حلولاً تعليمية وبحثية متكاملة تحت إشراف أساتذة متخصصين من أفضل الجامعات السودانية والدولية.
+                        نحن شريكك الأمثل لتحقيق أهدافك الأكاديمية والبحثية في جميع المراحل الدراسية.
+                    </p>
+                    
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-icon"><i class="fas fa-user-graduate"></i></div>
+                            <h3>+500</h3>
+                            <p>طالب ماجستير ودكتوراه</p>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon"><i class="fas fa-file-alt"></i></div>
+                            <h3>+1200</h3>
+                            <p>بحث علمي محكم</p>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon"><i class="fas fa-users"></i></div>
+                            <h3>+3000</h3>
+                            <p>طالب مدرسي وجامعي</p>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon"><i class="fas fa-heart"></i></div>
+                            <h3>98%</h3>
+                            <p>رضا العملاء</p>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-cta">
+                        <a href="#registration" class="primary-btn">
+                            <i class="fas fa-user-plus"></i>
+                            <span>سجل الآن واحصل على خصم 20%</span>
+                        </a>
+                        <a href="#services" class="secondary-btn">
+                            <i class="fas fa-play-circle"></i>
+                            <span>اكتشف خدماتنا</span>
+                        </a>
+                        <a href="https://wa.me/249903446089" class="whatsapp-btn" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>تواصل معنا</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-image animate__animated animate__fadeIn">
+    <div class="image-container">
+        <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80" 
+     alt="طلاب مركز العبير العالمي">
+        <div class="image-overlay">
+            <div class="floating-badge badge-1">
+                <i class="fas fa-user-graduate"></i>
+                <span>إعداد رسائل علمية</span>
+            </div>
+            <div class="floating-badge badge-2">
+                <i class="fas fa-microscope"></i>
+                <span>أبحاث محكمة</span>
+            </div>
+            <div class="floating-badge badge-3">
+                <i class="fas fa-chalkboard-teacher"></i>
+                <span>دروس خصوصية</span>
+            </div>
+            <div class="floating-badge badge-4">
+                <i class="fas fa-language"></i>
+                <span>كورسات لغات</span>
+            </div>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Trust Section -->
+    <section class="trust-section">
+        <div class="container">
+            <div class="trust-badges">
+                <div class="trust-badge">
+                    <i class="fas fa-shield-alt"></i>
+                    <div>
+                        <h4>جودة أكاديمية معتمدة</h4>
+                        <p>معايير أكاديمية عالية الجودة</p>
+                    </div>
+                </div>
+                <div class="trust-badge">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <h4>مرونة في المواعيد</h4>
+                        <p>جداول دراسية مرنة</p>
+                    </div>
+                </div>
+                <div class="trust-badge">
+                    <i class="fas fa-user-tie"></i>
+                    <div>
+                        <h4>أساتذة متخصصون</h4>
+                        <p>نخبة من الخبراء الأكاديميين</p>
+                    </div>
+                </div>
+                <div class="trust-badge">
+                    <i class="fas fa-headset"></i>
+                    <div>
+                        <h4>دعم فني متواصل</h4>
+                        <p>دعم 24/7 للطلاب</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">من نحن</span>
+                <h2 class="section-title">مركز العبير العالمي للتميز الأكاديمي</h2>
+                <p class="section-description">
+                    مركز تعليمي وبحثي رائد يقدم حلولاً أكاديمية متكاملة تحت إشراف نخبة من الأساتذة المتخصصين
+                </p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="عن المركز">
+                    <div class="experience-badge">
+                        <span>10+</span>
+                        <small>سنوات خبرة</small>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>رؤيتنا ورسالتنا</h3>
+                    <p>
+                        نؤمن في مركز العبير العالمي بأن التعليم هو أساس تقدم الأمم، ونسعى لبناء جيل من الباحثين والعلماء 
+                        القادرين على الإبداع والابتكار في مختلف المجالات العلمية.
+                    </p>
+                    
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <i class="fas fa-bullseye"></i>
+                            <div>
+                                <h4>رؤيتنا</h4>
+                                <p>الريادة في تقديم الخدمات التعليمية والبحثية في السودان والوطن العربي</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-flag"></i>
+                            <div>
+                                <h4>رسالتنا</h4>
+                                <p>توفير بيئة أكاديمية محفزة تمكن الطلاب والباحثين من تحقيق أهدافهم العلمية</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-star"></i>
+                            <div>
+                                <h4>قيمنا</h4>
+                                <p>الجودة، المصداقية، الالتزام، التميز، العمل الجماعي</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-stats">
+                        <div class="about-stat">
+                            <h4>50+</h4>
+                            <p>أستاذ متخصص</p>
+                        </div>
+                        <div class="about-stat">
+                            <h4>15+</h4>
+                            <p>تخصص علمي</p>
+                        </div>
+                        <div class="about-stat">
+                            <h4>100%</h4>
+                            <p>ضمان الجودة</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">خدماتنا المتخصصة</span>
+                <h2 class="section-title">حلول أكاديمية شاملة لكل المراحل</h2>
+                <p class="section-description">
+                    نقدم مجموعة متكاملة من الخدمات التعليمية والبحثية التي تلبي احتياجات الطلاب والباحثين في جميع التخصصات والمستويات
+                </p>
+            </div>
+            
+            <div class="services-tabs" id="servicesTabs">
+                <button class="tab-btn active" data-tab="academic">خدمات أكاديمية</button>
+                <button class="tab-btn" data-tab="languages">كورسات اللغات</button>
+                <button class="tab-btn" data-tab="school">دروس خصوصية</button>
+                <button class="tab-btn" data-tab="programming">البرمجة</button>
+                <button class="tab-btn" data-tab="consultation">استشارات</button>
+            </div>
+            
+            <!-- Academic Services Tab -->
+            <div class="tab-content active" id="academic-tab">
+                <div class="services-grid">
+                    <!-- Service 1 -->
+                    <div class="service-card featured">
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i class="fas fa-user-graduate"></i>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3>رسائل الماجستير والدكتوراه</h3>
+                            <p>إعداد كامل للرسائل العلمية بدءاً من اختيار الموضوع حتى المناقشة النهائية تحت إشراف خبراء متخصصين.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> تصميم خطة البحث</li>
+                                <li><i class="fas fa-check"></i> جمع وتحليل البيانات</li>
+                                <li><i class="fas fa-check"></i> كتابة وصياغة فصول الرسالة</li>
+                                <li><i class="fas fa-check"></i> تدريب على المناقشة</li>
+                                <li><i class="fas fa-check"></i> المراجعة والتدقيق اللغوي</li>
+                            </ul>
+                        </div>
+                        <div class="service-footer">
+                            <div class="service-price">
+                                <span class="price">120,000 ج.س</span>
+                                <span class="period">/ شهرياً</span>
+                            </div>
+                            <a href="#registration" class="service-btn">
+                                <span>ابدأ الآن</span>
+                                <i class="fas fa-arrow-left"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Service 2 -->
+                    <div class="service-card">
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3>الأبحاث العلمية المحكمة</h3>
+                            <p>إعداد وتنفيذ الأبحاث العلمية للنشر في المجلات المحكمة وفق أعلى المعايير الأكاديمية.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> تحديد مشكلة البحث</li>
+                                <li><i class="fas fa-check"></i> منهجية البحث العلمي</li>
+                                <li><i class="fas fa-check"></i> التحليل الإحصائي المتقدم</li>
+                                <li><i class="fas fa-check"></i> النشر في مجلات محكمة</li>
+                                <li><i class="fas fa-check"></i> متابعة عملية النشر</li>
+                            </ul>
+                        </div>
+                        <div class="service-footer">
+                            <div class="service-price">
+                                <span class="price">90,000 ج.س</span>
+                                <span class="period">/ بحث</span>
+                            </div>
+                            <a href="#registration" class="service-btn">
+                                <span>ابدأ الآن</span>
+                                <i class="fas fa-arrow-left"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Service 3 -->
+                    <div class="service-card">
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3>التحليل الإحصائي</h3>
+                            <p>تحليل بيانات البحث باستخدام برامج إحصائية متخصصة مثل SPSS، AMOS، STATA، وغيرها.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> تحليل وصفي واستدلالي</li>
+                                <li><i class="fas fa-check"></i> نمذجة المعادلات البنائية</li>
+                                <li><i class="fas fa-check"></i> تحليل الانحدار</li>
+                                <li><i class="fas fa-check"></i> اختبارات الفروض</li>
+                                <li><i class="fas fa-check"></i> تفسير النتائج</li>
+                            </ul>
+                        </div>
+                        <div class="service-footer">
+                            <div class="service-price">
+                                <span class="price">70,000 ج.س</span>
+                                <span class="period">/ خدمة</span>
+                            </div>
+                            <a href="#registration" class="service-btn">
+                                <span>ابدأ الآن</span>
+                                <i class="fas fa-arrow-left"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Language Courses Tab -->
+            <div class="tab-content" id="languages-tab">
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i class="fas fa-language"></i>
+                            </div>
+                            <span class="service-tag">شهادة معتمدة</span>
+                        </div>
+                        <div class="service-content">
+                            <h3>دورات اللغة الإنجليزية</h3>
+                            <p>دورات متكاملة لتعليم اللغة الإنجليزية من المستوى المبتدئ إلى المتقدم مع التركيز على الجوانب الأكاديمية.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> 6 مستويات متدرجة</li>
+                                <li><i class="fas fa-check"></i> محادثة أكاديمية</li>
+                                <li><i class="fas fa-check"></i> كتابة البحث العلمي</li>
+                                <li><i class="fas fa-check"></i> تحضير لاختبارات TOEFL/IELTS</li>
+                                <li><i class="fas fa-check"></i> شهادة معتمدة</li>
+                            </ul>
+                        </div>
+                        <div class="service-footer">
+                            <div class="service-price">
+                                <span class="price">70,000 ج.س</span>
+                                <span class="period">/ مستوى</span>
+                            </div>
+                            <a href="#registration" class="service-btn">
+                                <span>ابدأ الآن</span>
+                                <i class="fas fa-arrow-left"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card featured">
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i class="fas fa-globe-europe"></i>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3>دورات اللغة الفرنسية</h3>
+                            <p>تعلم اللغة الفرنسية مع متحدثين أصليين، مع التركيز على الاستخدام الأكاديمي والمهني.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> A1 إلى C2 حسب الإطار الأوروبي</li>
+                                <li><i class="fas fa-check"></i> تحضير لاختبار DELF/DALF</li>
+                                <li><i class="fas fa-check"></i> فرنسية الأعمال</li>
+                                <li><i class="fas fa-check"></i> فرنسية السياحة</li>
+                                <li><i class="fas fa-check"></i> فرنسية أكاديمية</li>
+                            </ul>
+                        </div>
+                        <div class="service-footer">
+                            <div class="service-price">
+                                <span class="price">80,000 ج.س</span>
+                                <span class="period">/ مستوى</span>
+                            </div>
+                            <a href="#registration" class="service-btn">
+                                <span>ابدأ الآن</span>
+                                <i class="fas fa-arrow-left"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i class="fas fa-globe-americas"></i>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3>دورات اللغة الألمانية</h3>
+                            <p>دورات مكثفة للغة الألمانية تحضيراً للدراسة في ألمانيا أو للعمل في الشركات الألمانية.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> A1 إلى C1</li>
+                                <li><i class="fas fa-check"></i> تحضير لاختبار TestDaF</li>
+                                <li><i class="fas fa-check"></i> ألمانية الجامعات</li>
+                                <li><i class="fas fa-check"></i> ألمانية التقنية</li>
+                                <li><i class="fas fa-check"></i> ألمانية الطب</li>
+                            </ul>
+                        </div>
+                        <div class="service-footer">
+                            <div class="service-price">
+                                <span class="price">90,000 ج.س</span>
+                                <span class="period">/ مستوى</span>
+                            </div>
+                            <a href="#registration" class="service-btn">
+                                <span>ابدأ الآن</span>
+                                <i class="fas fa-arrow-left"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- School Courses Tab -->
+            <div class="tab-content" id="school-tab">
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i class="fas fa-school"></i>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3>دروس المرحلة الابتدائية</h3>
+                            <p>دروس خصوصية لطلاب المرحلة الابتدائية في جميع المواد الدراسية بأسلوب تعليمي تفاعلي.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> الرياضيات والعلوم</li>
+                                <li><i class="fas fa-check"></i> اللغة العربية والإنجليزية</li>
+                                <li><i class="fas fa-check"></i> التربية الإسلامية</li>
+                                <li><i class="fas fa-check"></i> أساليب تعليمية مبتكرة</li>
+                                <li><i class="fas fa-check"></i> متابعة مستمرة مع الأهل</li>
+                            </ul>
+                        </div>
+                        <div class="service-footer">
+                            <div class="service-price">
+                                <span class="price">50,000 ج.س</span>
+                                <span class="period">/ شهرياً</span>
+                            </div>
+                            <a href="#registration" class="service-btn">
+                                <span>ابدأ الآن</span>
+                                <i class="fas fa-arrow-left"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card featured">
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3>دروس المرحلة الثانوية</h3>
+                            <p>تحضير مكثف لطلاب الثانوية العامة في المواد العلمية والأدبية لتحقيق أعلى الدرجات.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> الرياضيات المتقدمة</li>
+                                <li><i class="fas fa-check"></i> الفيزياء والكيمياء</li>
+                                <li><i class="fas fa-check"></i> الأحياء والجيولوجيا</li>
+                                <li><i class="fas fa-check"></i> اللغات العربية والإنجليزية</li>
+                                <li><i class="fas fa-check"></i> نماذج امتحانات سابقة</li>
+                            </ul>
+                        </div>
+                        <div class="service-footer">
+                            <div class="service-price">
+                                <span class="price">60,000 ج.س</span>
+                                <span class="period">/ شهرياً</span>
+                            </div>
+                            <a href="#registration" class="service-btn">
+                                <span>ابدأ الآن</span>
+                                <i class="fas fa-arrow-left"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i class="fas fa-university"></i>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3>دروس المواد الجامعية</h3>
+                            <p>دروس خصوصية لطلاب الجامعات في التخصصات العلمية والهندسية والطبية.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> الرياضيات الجامعية</li>
+                                <li><i class="fas fa-check"></i> الفيزياء والكيمياء</li>
+                                <li><i class="fas fa-check"></i> مواد الهندسة</li>
+                                <li><i class="fas fa-check"></i> مواد الطب والصيدلة</li>
+                                <li><i class="fas fa-check"></i> مواد المحاسبة والإدارة</li>
+                            </ul>
+                        </div>
+                        <div class="service-footer">
+                            <div class="service-price">
+                                <span class="price">70,000 ج.س</span>
+                                <span class="period">/ مادة</span>
+                            </div>
+                            <a href="#registration" class="service-btn">
+                                <span>ابدأ الآن</span>
+                                <i class="fas fa-arrow-left"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Programming Tab -->
+            <div class="tab-content" id="programming-tab">
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <span class="service-tag">مطلوبة</span>
+                        </div>
+                        <div class="service-content">
+                            <h3>دورات تطوير الويب</h3>
+                            <p>دورات متكاملة في تطوير الويب تشمل Frontend و Backend لتأهيلك لسوق العمل التقني.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> HTML5, CSS3, JavaScript</li>
+                                <li><i class="fas fa-check"></i> React.js / Vue.js</li>
+                                <li><i class="fas fa-check"></i> Node.js / Express.js</li>
+                                <li><i class="fas fa-check"></i> قواعد البيانات SQL/NoSQL</li>
+                                <li><i class="fas fa-check"></i> مشروع تخرج عملي</li>
+                            </ul>
+                        </div>
+                        <div class="service-footer">
+                            <div class="service-price">
+                                <span class="price">120,000 ج.س</span>
+                                <span class="period">/ دورة</span>
+                            </div>
+                            <a href="#registration" class="service-btn">
+                                <span>ابدأ الآن</span>
+                                <i class="fas fa-arrow-left"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card featured">
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3>دورات تطبيقات الموبايل</h3>
+                            <p>تعلم برمجة تطبيقات الأندرويد و iOS باستخدام أحدث التقنيات والأطر البرمجية.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> Android Studio (Java/Kotlin)</li>
+                                <li><i class="fas fa-check"></i> iOS Development (Swift)</li>
+                                <li><i class="fas fa-check"></i> Flutter / React Native</li>
+                                <li><i class="fas fa-check"></i> تصميم واجهات المستخدم</li>
+                                <li><i class="fas fa-check"></i> نشر التطبيقات</li>
+                            </ul>
+                        </div>
+                        <div class="service-footer">
+                            <div class="service-price">
+                                <span class="price">140,000 ج.س</span>
+                                <span class="period">/ دورة</span>
+                            </div>
+                            <a href="#registration" class="service-btn">
+                                <span>ابدأ الآن</span>
+                                <i class="fas fa-arrow-left"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3>دورات الذكاء الاصطناعي</h3>
+                            <p>دورات متخصصة في الذكاء الاصطناعي وتعلم الآلة وتحليل البيانات الضخمة.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> Python للذكاء الاصطناعي</li>
+                                <li><i class="fas fa-check"></i> Machine Learning</li>
+                                <li><i class="fas fa-check"></i> Deep Learning</li>
+                                <li><i class="fas fa-check"></i> معالجة اللغات الطبيعية</li>
+                                <li><i class="fas fa-check"></i> مشاريع تطبيقية</li>
+                            </ul>
+                        </div>
+                        <div class="service-footer">
+                            <div class="service-price">
+                                <span class="price">160,000 ج.س</span>
+                                <span class="period">/ دورة</span>
+                            </div>
+                            <a href="#registration" class="service-btn">
+                                <span>ابدأ الآن</span>
+                                <i class="fas fa-arrow-left"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Consultation Tab -->
+            <div class="tab-content" id="consultation-tab">
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3>استشارات أكاديمية</h3>
+                            <p>استشارات متخصصة في التخطيط الأكاديمي واختيار التخصصات وكتابة السير الذاتية الأكاديمية.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> تخطيط المسار الأكاديمي</li>
+                                <li><i class="fas fa-check"></i> اختيار التخصص المناسب</li>
+                                <li><i class="fas fa-check"></i> كتابة السيرة الذاتية</li>
+                                <li><i class="fas fa-check"></i> خطابات التوصية</li>
+                                <li><i class="fas fa-check"></i> التحضير للمقابلات</li>
+                            </ul>
+                        </div>
+                        <div class="service-footer">
+                            <div class="service-price">
+                                <span class="price">40,000 ج.س</span>
+                                <span class="period">/ جلسة</span>
+                            </div>
+                            <a href="#registration" class="service-btn">
+                                <span>ابدأ الآن</span>
+                                <i class="fas fa-arrow-left"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i class="fas fa-file-contract"></i>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3>مراجعة وتدقيق الأبحاث</h3>
+                            <p>خدمة مراجعة وتدقيق لغوي وأكاديمي للأبحاث والرسائل العلمية قبل تقديمها.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> تدقيق لغوي متخصص</li>
+                                <li><i class="fas fa-check"></i> مراجعة المنهجية</li>
+                                <li><i class="fas fa-check"></i> تصحيح الأخطاء العلمية</li>
+                                <li><i class="fas fa-check"></i> تحسين الصياغة</li>
+                                <li><i class="fas fa-check"></i> تنسيق حسب الدليل</li>
+                            </ul>
+                        </div>
+                        <div class="service-footer">
+                            <div class="service-price">
+                                <span class="price">50,000 ج.س</span>
+                                <span class="period">/ بحث</span>
+                            </div>
+                            <a href="#registration" class="service-btn">
+                                <span>ابدأ الآن</span>
+                                <i class="fas fa-arrow-left"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card featured">
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3>استشارات النشر العلمي</h3>
+                            <p>استشارات متخصصة في نشر الأبحاث في المجلات العلمية المحكمة العالمية.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> اختيار المجلة المناسبة</li>
+                                <li><i class="fas fa-check"></i> تحسين البحث للنشر</li>
+                                <li><i class="fas fa-check"></i> الرد على مراجعي المجلة</li>
+                                <li><i class="fas fa-check"></i> متابعة عملية النشر</li>
+                                <li><i class="fas fa-check"></i> نصائح لتجنب الرفض</li>
+                            </ul>
+                        </div>
+                        <div class="service-footer">
+                            <div class="service-price">
+                                <span class="price">60,000 ج.س</span>
+                                <span class="period">/ خدمة</span>
+                            </div>
+                            <a href="#registration" class="service-btn">
+                                <span>ابدأ الآن</span>
+                                <i class="fas fa-arrow-left"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="services-cta">
+                <p>هل تبحث عن خدمة أخرى غير موجودة؟ <a href="https://wa.me/249903446089">تواصل معنا</a> وسنصمم لك خطة مخصصة</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">لماذا تختارنا</span>
+                <h2 class="section-title">مزايا تميزنا عن الآخرين</h2>
+                <p class="section-description">
+                    نؤمن بأن التميز الأكاديمي لا يأتي إلا بالجودة الشاملة والدعم المتكامل
+                </p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>أساتذة متخصصون</h3>
+                    <p>نخبة من الأساتذة الحاصلين على درجات علمية عالية من جامعات عالمية مع خبرة طويلة في المجال الأكاديمي</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>خطط دراسية مخصصة</h3>
+                    <p>نصمم خطة دراسية تناسب احتياجاتك وأهدافك الأكاديمية بناءً على تقييم دقيق لمستواك</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>مرونة في المواعيد</h3>
+                    <p>جداول مرنة تناسب طلاب العمل والدراسة بدوام كامل، مع إمكانية التعديل حسب ظروفك</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>دعم متواصل 24/7</h3>
+                    <p>فريق دعم فني وأكاديمي متاح على مدار الساعة للإجابة على استفساراتك وتقديم المساعدة</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>جودة مضمونة</h3>
+                    <p>نلتزم بأعلى معايير الجودة الأكاديمية والبحثية مع ضمان تحقيق النتائج المرجوة</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-file-contract"></i>
+                    </div>
+                    <h3>عقود مضمونة</h3>
+                    <p>عقود واضحة تحفظ حقوق الطرفين وتضمن جودة الخدمة المقدمة مع خيارات سداد مرنة</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-laptop-house"></i>
+                    </div>
+                    <h3>تعليم عن بعد</h3>
+                    <p>نظام تعليمي متكامل عبر الإنترنت مع فصول تفاعلية حية وتسجيلات للمحاضرات</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>تدريب عملي</h3>
+                    <p>دمج الجانب النظري مع التطبيقات العملية لضمان الفهم الكامل والتطبيق العملي</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses-section" id="courses">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">الكورسات المتاحة</span>
+                <h2 class="section-title">دورات تدريبية متخصصة</h2>
+                <p class="section-description">
+                    اكتشف مجموعة متنوعة من الدورات التدريبية المصممة لتطوير مهاراتك وزيادة فرصك الوظيفية
+                </p>
+            </div>
+            
+            <div class="courses-filters">
+                <button class="filter-btn active" data-filter="all">جميع الكورسات</button>
+                <button class="filter-btn" data-filter="language">دورات اللغات</button>
+                <button class="filter-btn" data-filter="tech">دورات التقنية</button>
+                <button class="filter-btn" data-filter="academic">دورات أكاديمية</button>
+                <button class="filter-btn" data-filter="soft-skills">المهارات الناعمة</button>
+            </div>
+            
+            <div class="courses-grid">
+                <!-- Course 1 -->
+                <div class="course-card" data-category="language">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="دورة الإنجليزية">
+                        <span class="course-level">مبتدئ - متقدم</span>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-category">دورات اللغات</div>
+                        <h3>دورة الإنجليزية المتكاملة</h3>
+                        <p>دورة متكاملة لتعلم الإنجليزية من الصفر وحتى الاحتراف مع التركيز على الجوانب الأكاديمية والمهنية.</p>
+                        <div class="course-details">
+                            <span><i class="fas fa-clock"></i> 60 ساعة</span>
+                            <span><i class="fas fa-user-graduate"></i> شهادة معتمدة</span>
+                            <span><i class="fas fa-video"></i> أونلاين</span>
+                        </div>
+                        <div class="course-footer">
+                            <div class="course-price">
+                                <span class="old-price">80,000 ج.س</span>
+                                <span class="new-price">70,000 ج.س</span>
+                            </div>
+                            <a href="#registration" class="course-btn">سجل الآن</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Course 2 -->
+                <div class="course-card" data-category="tech">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="دورة البرمجة">
+                        <span class="course-level">متوسط</span>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-category">دورات التقنية</div>
+                        <h3>تطوير الويب المتكامل</h3>
+                        <p>تعلم تطوير المواقع الإلكترونية باستخدام أحدث التقنيات من Frontend إلى Backend.</p>
+                        <div class="course-details">
+                            <span><i class="fas fa-clock"></i> 120 ساعة</span>
+                            <span><i class="fas fa-user-graduate"></i> مشروع تخرج</span>
+                            <span><i class="fas fa-video"></i> أونلاين</span>
+                        </div>
+                        <div class="course-footer">
+                            <div class="course-price">
+                                <span class="old-price">150,000 ج.س</span>
+                                <span class="new-price">120,000 ج.س</span>
+                            </div>
+                            <a href="#registration" class="course-btn">سجل الآن</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Course 3 -->
+                <div class="course-card" data-category="academic">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="التحليل الإحصائي">
+                        <span class="course-level">متقدم</span>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-category">دورات أكاديمية</div>
+                        <h3>التحليل الإحصائي باستخدام SPSS</h3>
+                            <p>دورة متخصصة في التحليل الإحصائي للباحثين والأكاديميين باستخدام برنامج SPSS.</p>
+                            <div class="course-details">
+                                <span><i class="fas fa-clock"></i> 40 ساعة</span>
+                                <span><i class="fas fa-user-graduate"></i> شهادة معتمدة</span>
+                                <span><i class="fas fa-laptop"></i> عملي</span>
+                            </div>
+                            <div class="course-footer">
+                                <div class="course-price">
+                                    <span class="old-price">80,000 ج.س</span>
+                                    <span class="new-price">65,000 ج.س</span>
+                                </div>
+                                <a href="#registration" class="course-btn">سجل الآن</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Course 4 -->
+                    <div class="course-card" data-category="soft-skills">
+                        <div class="course-image">
+                            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="مهارات القيادة">
+                            <span class="course-level">جميع المستويات</span>
+                        </div>
+                        <div class="course-content">
+                            <div class="course-category">المهارات الناعمة</div>
+                            <h3>مهارات القيادة والتواصل</h3>
+                            <p>تطوير مهارات القيادة والتواصل الفعال والعرض والتقديم للنجاح في المجال المهني.</p>
+                            <div class="course-details">
+                                <span><i class="fas fa-clock"></i> 30 ساعة</span>
+                                <span><i class="fas fa-user-graduate"></i> شهادة معتمدة</span>
+                                <span><i class="fas fa-users"></i> جماعي</span>
+                            </div>
+                            <div class="course-footer">
+                                <div class="course-price">
+                                    <span class="old-price">60,000 ج.س</span>
+                                    <span class="new-price">45,000 ج.س</span>
+                                </div>
+                                <a href="#registration" class="course-btn">سجل الآن</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Course 5 -->
+                    <div class="course-card" data-category="language">
+                        <div class="course-image">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="دورة الفرنسية">
+                            <span class="course-level">مبتدئ</span>
+                        </div>
+                        <div class="course-content">
+                            <div class="course-category">دورات اللغات</div>
+                            <h3>اللغة الفرنسية للمبتدئين</h3>
+                            <p>تعلم الفرنسية من الصفر مع التركيز على المحادثة اليومية والأساسيات اللغوية.</p>
+                            <div class="course-details">
+                                <span><i class="fas fa-clock"></i> 50 ساعة</span>
+                                <span><i class="fas fa-user-graduate"></i> شهادة معتمدة</span>
+                                <span><i class="fas fa-video"></i> أونلاين</span>
+                            </div>
+                            <div class="course-footer">
+                                <div class="course-price">
+                                    <span class="old-price">85,000 ج.س</span>
+                                    <span class="new-price">75,000 ج.س</span>
+                                </div>
+                                <a href="#registration" class="course-btn">سجل الآن</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Course 6 -->
+                    <div class="course-card" data-category="tech">
+                        <div class="course-image">
+                            <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="الذكاء الاصطناعي">
+                            <span class="course-level">متقدم</span>
+                        </div>
+                        <div class="course-content">
+                            <div class="course-category">دورات التقنية</div>
+                            <h3>مقدمة في الذكاء الاصطناعي</h3>
+                            <p>تعرف على أساسيات الذكاء الاصطناعي وتعلم الآلة وأهم التطبيقات العملية.</p>
+                            <div class="course-details">
+                                <span><i class="fas fa-clock"></i> 80 ساعة</span>
+                                <span><i class="fas fa-user-graduate"></i> مشروع تخرج</span>
+                                <span><i class="fas fa-laptop"></i> عملي</span>
+                            </div>
+                            <div class="course-footer">
+                                <div class="course-price">
+                                    <span class="old-price">180,000 ج.س</span>
+                                    <span class="new-price">150,000 ج.س</span>
+                                </div>
+                                <a href="#registration" class="course-btn">سجل الآن</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="courses-cta">
+                    <a href="#registration" class="primary-btn large">
+                        <i class="fas fa-search"></i>
+                        تصفح جميع الكورسات
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials" id="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">آراء عملائنا</span>
+                    <h2 class="section-title">كلمات تملأنا فخراً</h2>
+                    <p class="section-description">
+                        نستمع دائماً إلى آراء طلابنا لتطوير خدماتنا وتحسين تجربتهم التعليمية
+                    </p>
+                </div>
+                
+                <div class="testimonials-slider swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Testimonial 1 -->
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial-text">
+                                    "ساعدني مركز العبير في إكمال رسالة الماجستير خلال 8 أشهر فقط. الدعم الذي تلقيتُه كان استثنائياً من جميع النواحي."
+                                </p>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">م</div>
+                                    <div class="author-info">
+                                        <h4>محمد أحمد</h4>
+                                        <span>طالب ماجستير - هندسة حاسوب</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Testimonial 2 -->
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <p class="testimonial-text">
+                                    "ابنتي كانت تعاني في مادة الرياضيات، ولكن بعد الانضمام لمركز العبير تحسن مستواها من 60% إلى 95% في فصل واحد فقط."
+                                </p>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">س</div>
+                                    <div class="author-info">
+                                        <h4>سارة الخليفة</h4>
+                                        <span>والدة طالبة - ثانوية الخرطوم</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Testimonial 3 -->
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial-text">
+                                    "دورات البرمجة في المركز غيرت مساري المهني تماماً. تحولت من موظف عادي إلى مطور ويب محترف في 6 أشهر."
+                                </p>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">ع</div>
+                                    <div class="author-info">
+                                        <h4>عبدالله سعيد</h4>
+                                        <span>مطور ويب - خريج كورس البرمجة</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Testimonial 4 -->
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial-text">
+                                    "كورس اللغة الإنجليزية ساعدني في الحصول على منحة دراسية في بريطانيا. الشكر الجزيل للفريق المتميز."
+                                </p>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">خ</div>
+                                    <div class="author-info">
+                                        <h4>خالد محمود</h4>
+                                        <span>طالب دكتوراه - المملكة المتحدة</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Testimonial 5 -->
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial-text">
+                                    "بحثي تم نشره في مجلة محكمة بفضل الدعم المتميز من المركز. أنصح كل باحث بالتعامل معهم."
+                                </p>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">ن</div>
+                                    <div class="author-info">
+                                        <h4>نورا حسن</h4>
+                                        <span>باحثة - كلية الطب</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section" id="faq">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">الأسئلة الشائعة</span>
+                    <h2 class="section-title">أسئلة متكررة</h2>
+                    <p class="section-description">
+                        إجابات على أكثر الأسئلة شيوعاً حول خدماتنا وطريقة العمل
+                    </p>
+                </div>
+                
+                <div class="faq-container">
+                    <!-- FAQ Item 1 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>ما هي مدة إعداد رسالة الماجستير؟</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>تتراوح مدة إعداد رسالة الماجستير بين 6 إلى 12 شهراً حسب التخصص وصعوبة الموضوع ومدى توفر البيانات. نقوم بإعداد جدول زمني مخصص لكل طالب ونلتزم به.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ Item 2 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>هل الدروس تكون أونلاين أم حضوري؟</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>نقدم الخيارين معاً. يمكنك اختيار التعليم أونلاين عبر منصتنا التفاعلية، أو الحضور لمقر المركز في الخرطوم. معظم طلابنا يفضلون النظام أونلاين لمرونته.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ Item 3 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>هل تحصل على شهادة معتمدة بعد إنهاء الكورس؟</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>نعم، جميع دوراتنا تنتهي بشهادة معتمدة من المركز معتمدة من الجهات التعليمية في السودان. كما يمكن توثيق الشهادات للعمل في الخارج عند الطلب.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ Item 4 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>ما هي خيارات الدفع المتاحة؟</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>نوفر عدة خيارات للدفع: الدفع الكامل، الدفع بالتقسيط، التحويل البنكي، الدفع الإلكتروني، بالإضافة إلى خيارات خاصة للطلاب المتميزين.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ Item 5 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>هل يمكنني تغيير موعد الدرس إذا تعذر علي الحضور؟</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>نعم، نقدم مرونة كاملة في تغيير المواعيد. يمكنك إلغاء أو تأجيل أي درس قبل 24 ساعة من موعده دون أي رسوم إضافية.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ Item 6 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>كيف يتم اختيار الأستاذ المناسب لي؟</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>نقوم أولاً بتقييم مستوى الطالب وأهدافه التعليمية، ثم نختار له الأستاذ الأنسب من حيث التخصص والخبرة وأسلوب التدريس بناءً على احتياجاته.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faq-cta">
+                    <p>هل لديك سؤال آخر؟ <a href="https://wa.me/249903446089" target="_blank">تواصل معنا على واتساب</a> وسنجيب على جميع استفساراتك</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Registration Section -->
+        <section class="registration" id="registration">
+            <div class="container">
+                <div class="registration-container">
+                    <div class="registration-info">
+                        <div class="info-header">
+                            <span class="info-badge">عرض خاص</span>
+                            <h2>سجل الآن واحصل على</h2>
+                            <h3 class="discount">خصم 20%</h3>
+                            <p class="discount-subtitle">على أول خدمة تقدمها لنا</p>
+                        </div>
+                        
+                        <p class="info-description">
+                            بالإضافة إلى جلسة تقييم مجانية لمستواك الأكاديمي وتصميم خطة دراسية مخصصة
+                        </p>
+                        
+                        <div class="benefits">
+                            <div class="benefit">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h4>جلسة تقييم مجانية</h4>
+                                    <p>تقييم دقيق لمستواك الأكاديمي</p>
+                                </div>
+                            </div>
+                            <div class="benefit">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h4>خطة دراسية مخصصة</h4>
+                                    <p>تصميم خطة تناسب أهدافك</p>
+                                </div>
+                            </div>
+                            <div class="benefit">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h4>متابعة دورية</h4>
+                                    <p>تقييم مستمر للتقدم الدراسي</p>
+                                </div>
+                            </div>
+                            <div class="benefit">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h4>تقارير أداء مفصلة</h4>
+                                    <p>تقارير دورية عن التقدم</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="registration-stats">
+                            <div class="stat">
+                                <i class="fas fa-bolt"></i>
+                                <div>
+                                    <h4>سرعة الاستجابة</h4>
+                                    <p>نتواصل معك خلال 24 ساعة</p>
+                                </div>
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-lock"></i>
+                                <div>
+                                    <h4>خصوصية كاملة</h4>
+                                    <p>بياناتك محمية 100%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="registration-form-container">
+                        <div class="form-header">
+                            <h3>سجل الآن واحصل على خصم 20%</h3>
+                            <p>املأ النموذج وسنتواصل معك خلال 24 ساعة</p>
+                        </div>
+                        
+                        <form id="registrationForm" class="registration-form">
+                            <div class="form-group">
+                                <label for="fullName">
+                                    <i class="fas fa-user"></i>
+                                    الاسم الكامل
+                                </label>
+                                <input type="text" id="fullName" placeholder="أدخل اسمك الكامل" required>
+                                <div class="form-error" id="nameError"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">
+                                    <i class="fas fa-envelope"></i>
+                                    البريد الإلكتروني
+                                </label>
+                                <input type="email" id="email" placeholder="example@domain.com" required>
+                                <div class="form-error" id="emailError"></div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="countryCode">
+                                        <i class="fas fa-globe"></i>
+                                        الدولة
+                                    </label>
+                                    <select id="countryCode" class="form-select" required>
+                                        <option value="">اختر الدولة</option>
+                                        <option value="+249">🇸🇩 السودان (+249)</option>
+                                        <option value="+966">🇸🇦 السعودية (+966)</option>
+                                        <option value="+971">🇦🇪 الإمارات (+971)</option>
+                                        <option value="+20">🇪🇬 مصر (+20)</option>
+                                        <option value="+962">🇯🇴 الأردن (+962)</option>
+                                    </select>
+                                    <div class="form-error" id="countryError"></div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="phone">
+                                        <i class="fas fa-phone"></i>
+                                        رقم الهاتف
+                                    </label>
+                                    <input type="tel" id="phone" placeholder="أدخل رقم الهاتف" required>
+                                    <div class="form-error" id="phoneError"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="educationLevel">
+                                    <i class="fas fa-graduation-cap"></i>
+                                    المستوى التعليمي
+                                </label>
+                                <select id="educationLevel" class="form-select" required>
+                                    <option value="">اختر المستوى التعليمي</option>
+                                    <option value="primary">المرحلة الابتدائية</option>
+                                    <option value="intermediate">المرحلة المتوسطة</option>
+                                    <option value="secondary">المرحلة الثانوية</option>
+                                    <option value="university">المرحلة الجامعية</option>
+                                    <option value="master">دراسات عليا (ماجستير)</option>
+                                    <option value="phd">دراسات عليا (دكتوراه)</option>
+                                    <option value="researcher">باحث</option>
+                                </select>
+                                <div class="form-error" id="educationError"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="serviceInterest">
+                                    <i class="fas fa-cogs"></i>
+                                    الخدمة المطلوبة
+                                </label>
+                                <select id="serviceInterest" class="form-select" required>
+                                    <option value="">اختر الخدمة المطلوبة</option>
+                                    <option value="master_phd">رسائل الماجستير والدكتوراه</option>
+                                    <option value="research">الأبحاث العلمية المحكمة</option>
+                                    <option value="languages">كورسات اللغات الأجنبية</option>
+                                    <option value="scientific">المواد العلمية والهندسية</option>
+                                    <option value="programming">البرمجة والتقنية</option>
+                                    <option value="school">الدروس الخصوصية المدرسية</option>
+                                    <option value="consultation">استشارة أكاديمية</option>
+                                </select>
+                                <div class="form-error" id="serviceError"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">
+                                    <i class="fas fa-comment"></i>
+                                    رسالة إضافية (اختياري)
+                                </label>
+                                <textarea id="message" placeholder="أخبرنا أكثر عن احتياجاتك التعليمية..." rows="3"></textarea>
+                            </div>
+                            
+                            <div class="form-checkbox">
+                                <input type="checkbox" id="agreeTerms" required>
+                                <label for="agreeTerms">أوافق على <a href="#">الشروط والأحكام</a> و <a href="#">سياسة الخصوصية</a></label>
+                            </div>
+                            
+                            <button type="submit" class="submit-btn" id="submitBtn">
+                                <div class="btn-content">
+                                    <i class="fas fa-paper-plane"></i>
+                                    <span>سجل الآن واحصل على خصم 20%</span>
+                                </div>
+                                <div class="btn-loader" id="btnLoader">
+                                    <div class="loader"></div>
+                                </div>
+                            </button>
+                            
+                            <div class="form-notice">
+                                <i class="fas fa-lock"></i>
+                                <span>بياناتك محمية ولا نشاركها مع أي طرف ثالث</span>
+                            </div>
+                        </form>
+                        
+                        <div class="success-message" id="successMessage">
+                            <div class="success-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <h3>تم التسجيل بنجاح!</h3>
+                            <p>شكراً لتسجيلك في مركز العبير العالمي. سيتصل بك مستشارنا الأكاديمي خلال 24 ساعة لتحديد تفاصيل خطتك الدراسية.</p>
+                            <div class="registration-id">
+                                <span>رقم التسجيل:</span>
+                                <strong id="registrationId"></strong>
+                            </div>
+                            <button class="close-btn" onclick="hideSuccessMessage()">موافق</button>
+                        </div>
+                        
+                        <div class="error-message" id="errorMessage">
+                            <div class="error-icon">
+                                <i class="fas fa-exclamation-triangle"></i>
+                            </div>
+                            <h3>حدث خطأ!</h3>
+                            <p id="errorText">تعذر حفظ بياناتك. يرجى المحاولة مرة أخرى.</p>
+                            <button class="close-btn" onclick="hideErrorMessage()">حاول مرة أخرى</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Banner -->
+        <section class="cta-banner">
+            <div class="container">
+                <div class="banner-content">
+                    <h2>مستعد لبدء رحلتك الأكاديمية؟</h2>
+                    <p>سجل الآن واحصل على جلسة تقييم مجانية وخطة دراسية مخصصة تناسب أهدافك</p>
+                    <div class="banner-buttons">
+                        <a href="#registration" class="primary-btn large">
+                            <i class="fas fa-calendar-check"></i>
+                            احجز جلسة تقييم مجانية الآن
+                        </a>
+                        <a href="https://wa.me/249903446089" class="whatsapp-btn large" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                            تواصل معنا مباشرة
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col">
+                        <div class="footer-logo">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h3>مركز العبير العالمي</h3>
+                                <p>ل د. عبير محمد الرضا عبدالرحمن الأغبش</p>
+                            </div>
+                        </div>
+                        <p class="footer-description">
+                            مركز تعليمي وبحثي متكامل في الخرطوم، نقدم حلولاً أكاديمية متخصصة تحت إشراف نخبة من الأساتذة والخبراء.
+                        </p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://wa.me/249903446089" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-col">
+                        <h4>خدماتنا</h4>
+                        <ul class="footer-links">
+                            <li><a href="#services"><i class="fas fa-chevron-left"></i> رسائل الماجستير والدكتوراه</a></li>
+                            <li><a href="#services"><i class="fas fa-chevron-left"></i> الأبحاث العلمية المحكمة</a></li>
+                            <li><a href="#services"><i class="fas fa-chevron-left"></i> كورسات اللغات الأجنبية</a></li>
+                            <li><a href="#services"><i class="fas fa-chevron-left"></i> الدروس الخصوصية المدرسية</a></li>
+                            <li><a href="#services"><i class="fas fa-chevron-left"></i> البرمجة والتقنية</a></li>
+                            <li><a href="#services"><i class="fas fa-chevron-left"></i> الاستشارات الأكاديمية</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-col">
+                        <h4>روابط سريعة</h4>
+                        <ul class="footer-links">
+                            <li><a href="#home"><i class="fas fa-chevron-left"></i> الرئيسية</a></li>
+                            <li><a href="#about"><i class="fas fa-chevron-left"></i> عن المركز</a></li>
+                            <li><a href="#services"><i class="fas fa-chevron-left"></i> خدماتنا</a></li>
+                            <li><a href="#courses"><i class="fas fa-chevron-left"></i> الكورسات</a></li>
+                            <li><a href="#faq"><i class="fas fa-chevron-left"></i> الأسئلة الشائعة</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-col">
+                        <h4>اتصل بنا</h4>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <span>العنوان</span>
+                                    <p>السودان الخرطوم. الشقيلاب مربع ٢</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <span>واتساب</span>
+                                    <p>249903446089</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <span>هاتف</span>
+                                    <p>249910801604</p>
+                                    <p>249903446089</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <span>البريد الإلكتروني</span>
+                                    <p>Abeermohammedelrida55@gmail.com</p>
+                                    <p>Abeeralagbash16@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <span>ساعات العمل</span>
+                                    <p>الأحد - الخميس: 8 صباحاً - 10 مساءً</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-bottom">
+                    <p>© <span id="currentYear"></span> مركز العبير العالمي للتعليم والبحث العلمي. جميع الحقوق محفوظة.</p>
+                    <div class="footer-links">
+                        <a href="#">الشروط والأحكام</a>
+                        <a href="#">سياسة الخصوصية</a>
+                        <a href="#">سياسة الاستخدام</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Floating WhatsApp -->
+        <a href="https://wa.me/249903446089" class="whatsapp-float" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+            <span class="whatsapp-tooltip">تواصل معنا على واتساب</span>
+        </a>
+
+        <!-- Back to Top -->
+        <button class="back-to-top" id="backToTop">
+            <i class="fas fa-chevron-up"></i>
+        </button>
+
+        <!-- Scripts -->
+        <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="firebase-config.js"></script>
+        <script src="main-script.js"></script>
+    </body>
+</html>
